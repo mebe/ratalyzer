@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "Product Rating Definition Schema",
+  "properties": {
+    "validLines": {
+      "type": "integer"
+    },
+    "invalidLines": {
+      "type": "integer"
+    },
+    "bestRatedProducts": {
+      "type": "array",
+      "items": {
+        "title": "product identifier",
+        "type": "string"
+      }
+    },
+    "worstRatedProducts": {
+      "type": "array",
+      "items": {
+        "title": "product identifier",
+        "type": "string"
+      }
+    },
+    "mostRatedProduct": {
+      "type": "string",
+    },
+    "lessRatedProduct": {
+      "type": "string",
+    }
+  },
+  "required": [
+    "validLines",
+    "invalidLines",
+    "bestRatedProducts",
+    "worstRatedProducts",
+    "mostRatedProduct",
+    "lessRatedProduct"
+  ]
+}

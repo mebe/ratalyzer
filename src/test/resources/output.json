@@ -1,0 +1,16 @@
+{
+  "validLines": 48,
+  "invalidLines": 2,
+  "bestRatedProducts": [
+    "fixie-01",
+    "blu-ray-01",
+    "widetv-03"
+  ],
+  "worstRatedProducts": [
+    "endura-01",
+    "smarttv-01",
+    "patagonia-01"
+  ],
+  "mostRatedProduct": "wifi-projector-01",
+  "lessRatedProduct": "saddle-01"
+}
